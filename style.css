@@ -1,0 +1,73 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%; /* Make the image fit the width of its container */
+  max-width: 300px; /* Set a maximum width for the image */
+  display: block; /* Ensure the image behaves like a block element on the page */
+  margin: auto; /* Center the image horizontally within its container */
+}
+
+
+
+
+h1, h2, h3 {
+  margin: 1em 0;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #007bff; /* Change hover color */
+}
+
+/* Header styles */
+header {
+  background-color: #f0f8ff; /* Light blue background */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #e0e0e0; /* Light gray background */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none; /* Remove default bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+}
